@@ -88,6 +88,14 @@
   }
 }
 
+- (BOOL)authorized {
+  return [JLAddressBook authorized];
+}
+
+- (void)attemptToAuthorize:(AuthorizationBlock)block {
+  [JLAddressBook attemptToAuthorize:block];
+}
+
 - (NSArray *)syncContacts {
   if (![JLAddressBook authorized]) return nil;
 

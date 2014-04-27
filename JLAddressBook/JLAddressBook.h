@@ -29,6 +29,12 @@ typedef void (^AuthorizationBlock)(bool granted, NSError *error);
 + (BOOL)authorized;
 + (void)attemptToAuthorize:(AuthorizationBlock)block;
 
+- (BOOL)authorized
+    __attribute__((deprecated("use [JLAddressBook authorized] instead")));
+- (void)attemptToAuthorize:(AuthorizationBlock)block
+    __attribute__((
+        deprecated("use [JLAddressBook attemptToAuthorize:] instead")));
+
 // If your ContactManager defines existing contacts, the information in your
 // existing contacts will be updated to match what is in the device contacts
 - (NSArray *)syncContacts;
