@@ -9,6 +9,7 @@
 #import "JLContact.h"
 #import "JLContactManager.h"
 @import Foundation;
+@import UIKit;
 
 typedef void (^AuthorizationBlock)(bool granted, NSError *error);
 
