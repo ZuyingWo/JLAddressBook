@@ -78,13 +78,12 @@ then you call JLAddressBook syncContacts to update your contacts from the iphone
 
 Here is a list of iPhone apps utilizing this library:
 
-- [Seer Reminders] - [Seer Homepage]
+[Faysee] - [Faysee Homepage]
 
 ## License
 
 JLAddressBook is available under the MIT license. See the LICENSE file for more info.
 
 [Joe Laws]:https://angel.co/joe-laws
-[Seer Reminders]:https://itunes.apple.com/us/app/seer-reminders/id721450216?ls=1&mt=8
-[Seer Homepage]:http://getseer.com
-
+[Faysee]:https://itunes.apple.com/us/app/seer-reminders/id721450216?ls=1&mt=8
+[Faysee Homepage]:http://faysee.com
