@@ -108,7 +108,6 @@
 }
 
 - (NSURL *)storeURL {
-
   NSURL *documentsDirectory =
       [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory
                                              inDomain:NSUserDomainMask

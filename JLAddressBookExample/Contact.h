@@ -9,12 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-
 @interface Contact : NSManagedObject
 
-@property (nonatomic, retain) id emails;
-@property (nonatomic, retain) NSString * firstName;
-@property (nonatomic, retain) NSString * lastName;
-@property (nonatomic, retain) id thumbnail;
+@property(nonatomic, retain) id emails;
+@property(nonatomic, retain) NSString* firstName;
+@property(nonatomic, retain) NSString* lastName;
+@property(nonatomic, retain) id thumbnail;
 
 @end

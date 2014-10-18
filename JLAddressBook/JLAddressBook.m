@@ -238,7 +238,6 @@
 - (void)populateContact:(id<JLContact>)contact
            withArrayRef:(CFArrayRef)linkedArrayRef
               withCount:(NSUInteger)linkedCount {
-
   NSMutableSet *phoneNumbers = [NSMutableSet new];
   NSMutableSet *emails = [NSMutableSet new];
   NSMutableSet *addressBookIDs = [NSMutableSet new];
@@ -341,7 +340,6 @@
 - (NSArray *)cleanPhoneNumbers:(NSSet *)phoneNumbers {
   NSMutableSet *newPhoneNumbers = [NSMutableSet new];
   for (NSString *phoneNumber in phoneNumbers) {
-
     NSString *digitsOnly = [self.regex
         stringByReplacingMatchesInString:phoneNumber
                                  options:0
@@ -360,7 +358,6 @@
   }
 
   for (NSNumber *recordID in contact.addressBookIDs) {
-
     ABRecordRef recordRef =
         ABAddressBookGetPersonWithRecordID(self.addressBook, recordID.intValue);
 

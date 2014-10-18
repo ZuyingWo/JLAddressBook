@@ -8,7 +8,6 @@
 
 #import "Contact.h"
 
-
 @implementation Contact
 
 @dynamic emails;

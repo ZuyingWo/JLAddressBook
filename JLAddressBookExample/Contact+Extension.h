@@ -13,7 +13,7 @@
 
 @end
 
-@interface Contact (Extension)<JLContact>
+@interface Contact (Extension) <JLContact>
 
 + (NSString *)entityName;
 
