@@ -7,7 +7,6 @@
 //
 
 #import "JLContactManager.h"
-@import Foundation;
 
 @interface JLCoreDataContactManager : NSObject<JLContactManager>
 
