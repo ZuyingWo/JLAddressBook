@@ -7,7 +7,7 @@
 //
 
 #import "JLContact.h"
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @protocol JLContactManager<NSObject>
 

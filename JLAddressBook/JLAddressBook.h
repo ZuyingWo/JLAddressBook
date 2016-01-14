@@ -8,8 +8,8 @@
 
 #import "JLContact.h"
 #import "JLContactManager.h"
-@import Foundation;
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef void (^AuthorizationBlock)(bool granted, NSError *error);
 

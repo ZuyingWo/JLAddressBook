@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Joe Laws. All rights reserved.
 //
 
-@import Foundation;
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol JLContact<NSObject>
 
